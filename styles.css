@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/DC.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -84,6 +84,22 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+
+.center{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 601px;
+}
+
+.centercase{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	align-content: center;
+    width: 70%;
+}
+
 .location {
   background-color: #222;
   color: yellow;
@@ -101,6 +117,49 @@ header .profile-image:hover {
 .card:hover {
   border-color: #ff99ff;
 }
+
+.look{
+	font-weight: bolder;
+	font-size: 1.5em;
+	}
+
+.experience {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: #ff99ff;
+	margin-top: 1.5em;
+	margin-bottom: -.1em;
+}
+
+h6{
+	visibility: hidden;
+	display: none;
+}
+
+.imgstyles{
+	    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* Begin CSS for Call Out Block */
+.callout {
+  margin: 45px;
+  padding: 20px 40px 40px;
+  max-width: 100%;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+	border: solid thin;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.callout:hover {
+  border-color: #ff99ff;
+}
+/* End CSS for Call Out Block */
 
 ul.skills {
   padding: 0;
@@ -178,7 +237,66 @@ a.social:hover {
       justify-content: space-around;
       margin: 0 auto;
   }
+	
+/* Begin CSS for Features Section  */
+ .flexcall {
+      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: flex; 
+      max-width: 1200px;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+	
+section {
+  text-align: center;
+  background: url('images/Washington-DC_BG2.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+section {
+  line-height: 1.5;
+}
+section .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  /* Background and Border for feature image
+  background: #FFFFFF;
+  border: 3px solid white; */
+  transition: all .5s;
+}
+section .profile-image:hover {
+  transform: rotate(45deg);
+}
 
+	.features {
+  max-width: 350px;
+	}
+	
+	.features-box {
+		 margin: 30px;
+  padding: 20px 40px 40px;
+ 
+		  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+	}
+	
+	.features-box:hover {
+  border-color: #ff99ff;
+}
+	
+	.contact{
+		width: 600px; 
+		align-content: center; 
+	}
+/* End CSS for Features Section  */	
+	
   header {
     min-height: 470px;
   }
@@ -205,3 +323,41 @@ a.social:hover {
 
 }
 
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+	    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	width: 600;
+	
+} 
