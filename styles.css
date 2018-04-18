@@ -18,7 +18,7 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: #4ABDAC;
 }
 
 /* Section Styles */
@@ -52,7 +52,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: white;
 }
 
 header {
@@ -115,7 +115,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #FC4A1A;
 }
 
 .look{
@@ -126,7 +126,7 @@ header .profile-image:hover {
 .experience {
 	font-size: 1.5em;
 	text-transform: uppercase;
-	color: #ff99ff;
+	color: #4ABDAC;
 	margin-top: 1.5em;
 	margin-bottom: -.1em;
 }
@@ -157,7 +157,7 @@ h6{
 }
 
 .callout:hover {
-  border-color: #ff99ff;
+  border-color: #FC4A1A;
 }
 /* End CSS for Call Out Block */
 
@@ -169,14 +169,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #E37222;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #07889B;
 }
 
 footer {
@@ -288,7 +288,7 @@ section .profile-image:hover {
 	}
 	
 	.features-box:hover {
-  border-color: #ff99ff;
+  border-color: #FC4A1A;
 }
 	
 	.contact{
@@ -337,7 +337,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #FC4A1A;
     color: white;
     padding: 12px 20px;
     border: none;
